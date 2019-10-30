@@ -1,4 +1,5 @@
-public abstract class Shape {
+abstract class Shape {
+
     protected int x, y;
 
     Shape(int x, int y)
@@ -6,4 +7,6 @@ public abstract class Shape {
         this.x = x;
         this.y = y;
     }
+
+    abstract double perimeter();
 }
