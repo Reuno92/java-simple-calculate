@@ -11,4 +11,9 @@ public class Circle extends Shape {
     double perimeter() {
         return (Math.PI*2)*this.radius;
     }
+
+    @Override
+    double area() {
+        return Math.PI*(radius * radius);
+    }
 }
