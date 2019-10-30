@@ -12,6 +12,6 @@ public class Rectangle extends Shape {
 
     @Override
     double perimeter() {
-        return (width * height) * 2;
+        return (this.width * this.height) * 2;
     }
 }
