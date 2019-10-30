@@ -1,7 +1,14 @@
 public class Circle extends Shape {
 
-    Circle(int x, int y)
+    private int radius;
+    Circle(int x, int y, int r)
     {
         super(x, y);
+        this.radius = r;
+    }
+
+    @Override
+    double perimeter() {
+        return (Math.PI*2)*this.radius;
     }
 }
